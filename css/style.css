@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* navbar */
+.navbar {
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: purple;
+}
+
+.navbar-logo span {
+  color: black;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+  padding: 8px 16px;
+}
+
+.navbar-link:hover {
+  font-weight: bold;
+}
+
+.banner {
+  width: 1100px;
+  margin: auto;
+}
+
+.banner section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.banner-column {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.banner-picture {
+  width: 704px;
+  height: 407px;
+}
+
+/* sewa mobil */
+.sewa-mobil {
+  padding: 16px;
+}
+
+.sewa-mobil-container {
+  background-color: blue;
+  display: flex;
+  padding: 40px 40px 16px 40px;
+  color: white;
+  gap: 24px;
+  border-radius: 16px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.sewa-mobil-title {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.sewa-mobil-desc {
+  align-content: center;
+}
+
+button {
+  background-color: green;
+  color: white;
+}
